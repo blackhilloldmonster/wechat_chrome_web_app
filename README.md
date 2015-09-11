@@ -1,2 +1,5 @@
-# wechat_chrome_web_app
-网页微信chrome应用
+# 基于网页微信的 google chrome应用
+
+## 由于chrome商店中的的wechat(微信)应用不好用,稍微好用的图标太难看,索性整一个自己用用.
+
+## chrom应用简单易用,大家帮助一起完善吧!
