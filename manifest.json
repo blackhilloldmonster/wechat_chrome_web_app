@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "微信",
+    "description": "微信网页版",
+    "version": "0.0.1",
+    "icons": {
+        "16": "icon/16.png",
+        "48": "icon/48.png",
+        "128": "icon/128.png"
+    },
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    },
+    "permissions": [
+        "webview",
+        "http://*/*",
+        "https://*/*",
+        "https://wx.qq.com/"
+    ]
+}

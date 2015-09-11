@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+webview{
+    width:960px;
+    height:800px;
+    border:none;
+    margin:0 auto;
+    padding:0;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+#title_bar {
+    -webkit-app-region: drag;
+    height: 22px;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title_bar a {
+    -webkit-app-region: no-drag;
+    display: inline-block;
+    float: right;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+    margin-top:10px;
+    border: #dcdcdc 1px solid;
+    background: #dcdcdc;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+#close:hover{
+    background: #fe5f50;
+     border: #fe5f50 1px solid;
+}
+#maximize:hover{
+    background: #febc05;
+    border: #febc05 1px solid;
+}
+#minimize:hover{
+    background: #16e63a;
+    border: #16e63a 1px solid;
+}
